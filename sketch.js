@@ -117,7 +117,7 @@ function draw(){
     }
     if(level == -4){
         background(treeandrockbgImg);
-        ///girl.collide(rockG);
+        girl.collide(rockG);
         //girl.collide(borboleta);
         ///if(borboleta.visible == false){
         ///    borboleta.visible = true;
