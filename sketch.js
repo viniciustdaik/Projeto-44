@@ -236,7 +236,7 @@ function draw(){
             ///setColliders("running");
             //girl.changeAnimation("idleright", girlidlerightanm);
         }
-        if(keyWentDown("s") && girlIsJumping == false
+        /*///if(keyWentDown("s") && girlIsJumping == false
         ||keyWentDown(DOWN_ARROW) && girlIsJumping == false){
             ///girlanmrunning = false;
             ///girlIsRastera = true;
@@ -254,7 +254,7 @@ function draw(){
                 ///setColliders("idle");
                 ///girlIsRastera = false;
               }, 650);
-        }
+        }*////
         
     }
     if(keyDown(LEFT_ARROW) && girlIsRastera == false
@@ -267,7 +267,7 @@ function draw(){
             ///setColliders("running");
             //girl.changeAnimation("idleleft", girlidleleftanm);
         }
-        if(keyWentDown("s") && girlIsJumping == false
+        /*///if(keyWentDown("s") && girlIsJumping == false
         ||keyWentDown(DOWN_ARROW) && girlIsJumping == false){
             ///girlIsRastera = true;
             girl.velocityX = -9;
@@ -284,7 +284,7 @@ function draw(){
                 ///setColliders("idle");
                 ///girlIsRastera = false;
               }, 650);
-        }
+        }*////
     }
     if(keyWentUp("A") && !keyDown("D") && girlIsRastera == false 
     || keyWentUp("D") && !keyDown("A") && girlIsRastera == false){
