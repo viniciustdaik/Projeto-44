@@ -28,7 +28,7 @@ function setup(){
 
     //Criando o Sprite da girl(garota)
     girl = createSprite(width / 2 + 75, height / 2 + 300, 25, 25);
-    
+
     //Criando o Sprite do invisibleGround(chão Invisível) e definindo a visibilidade para false
     invisibleGround = createSprite(width / 2, height - 35, width, 25);
     invisibleGround.visible = false;
@@ -150,7 +150,7 @@ function draw(){
                 //A visibilidade da garota é true
                 girl.visible = true;
 
-                //o x da garota é "width - 10"
+                //O x da garota é "width - 10"
                 girl.x = width - 10;
                 //clear();
             }
