@@ -26,10 +26,10 @@ function setup(){
     //Criando o Canvas
     createCanvas(windowWidth, windowHeight);
 
-    //Criando o Sprite da Girl(Garota)
+    //Criando o Sprite da girl(garota)
     girl = createSprite(width / 2 + 75, height / 2 + 300, 25, 25);
     
-    //Criando o Sprite do invisibleGround(Chão Invisível) e definindo a visibilidade para false
+    //Criando o Sprite do invisibleGround(chão Invisível) e definindo a visibilidade para false
     invisibleGround = createSprite(width / 2, height - 35, width, 25);
     invisibleGround.visible = false;
 
